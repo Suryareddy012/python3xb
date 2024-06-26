@@ -1,0 +1,23 @@
+
+## Setup
+
+1. Clone the GitHub repository: `git clone https://github.com/Vengatesh-m/qa-test.git`
+2. Navigate to the repository directory: `cd qa-test`
+
+## Running the Tests
+
+1. Install the necessary dependencies: `pip install -r requirements.txt`
+2. Run the tests: `pytest`
+
+## Testing Details
+
+- The test script is located in the `test_frontend.py` file.
+- The test script uses the Selenium WebDriver to interact with the frontend and backend services.
+- The test script verifies that the frontend correctly displays the message returned by the backend.
+
+## Additional Information
+
+- The frontend service is deployed on `http://localhost:30000`.
+- The backend service is deployed on `http://localhost:5000`.
+
+"""
